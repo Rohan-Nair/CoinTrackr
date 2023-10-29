@@ -2,7 +2,10 @@ package com.example.cryptoapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import android.widget.PopupMenu
+import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import com.example.cryptoapp.databinding.ActivityMainBinding
 
@@ -14,6 +17,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+
+
+
 
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.fragmentContainerView)
         val navController = navHostFragment!!.findNavController()

@@ -14,6 +14,7 @@
     <color name="text_color">#212529</color>
     <color name="price_profit">#08990E</color>
     <color name="price_loss">#EA1E2C</color>
+    <color name="main_card">#14110f</color>
 
 
 </resources>

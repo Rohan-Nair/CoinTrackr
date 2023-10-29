@@ -29,6 +29,13 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentHomeBinding.inflate(layoutInflater)
 
+        // Get a reference to the exitButton in your XML layout
+        val exitButton = binding.logoutButton
+
+        // Set an OnClickListener for the exitButton
+        exitButton.setOnClickListener {
+            activity?.finish() // Finish the activity, which effectively exits the app.
+        }
 
         getTopCurrencyList()
 
