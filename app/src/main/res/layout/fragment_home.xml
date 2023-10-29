@@ -14,7 +14,7 @@
         android:layout_width="241dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="CoinTracker"
+        android:text="CoinTrackr"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />
